@@ -2,7 +2,7 @@
 
 // There are different ways to solve this problem
 
-// // 1
+// // 1 Using loop
 // function findLargestNumber(numbers) {
 //     // Step 2: Initialize a variable to the first element
 //     let largest = numbers[0];
@@ -22,7 +22,7 @@
 // console.log(findLargestNumber(arr));  // Output: 15
 // // First method ends here
 
-// // 2
+// // 2 Using Math Object{}
 
 // function findLargestNumber(num) {
 //         return Math.max(...num)
@@ -31,6 +31,6 @@
 // console.log(findLargestNumber([1,2,3,4,5,6]));
 // // Second method ends here
 
-// 3
+// 3 Using Arrow Function (=>) & Spread Operator(...)
 let findLargestNumber = (num) =>(Math.max(...num))
 console.log(findLargestNumber([1,2,3,4,5,6]));
