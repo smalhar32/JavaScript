@@ -1,6 +1,7 @@
 debugger
 const username = 'Anurag'
 const userAge = 25
+const z = 30;
 
 var a = 40
 
@@ -20,6 +21,13 @@ function sub() {
     console.log(x-y);
     console.log(username);
     
+    function child() {
+        const childName = 'Golu';
+        console.log(childName);
+        console.log(z);
+        
+    }
+    child();
 }
 
 add ()
