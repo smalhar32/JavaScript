@@ -26,8 +26,14 @@ const person = {
     city: 'Bombay'
 }
 
-// for in
-for (const key in person) {
-    console.log(key,':',person[key]);
+// // for in
+// for (const key in person) {
+//     console.log(key,':',person[key]);
     
+// }
+
+const personKeys = Object.keys(person)
+
+for (const key of personKeys) {
+    console.log(person[key]);
 }
