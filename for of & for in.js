@@ -5,11 +5,12 @@ const fruits = ['banana','apple','peach','mango','grapes']
 //     console.log(fruits[i]);
 // }
 
-// // for of
-// for (const fruit of fruits) {
-//     console.log(fruit);
+// for of
+for (const fruit of fruits) {
+    console.log(fruit);
     
-// }
+}
+console.log('******************************************');
 
 // const user = 'Shivam Malhar'
 
@@ -26,14 +27,18 @@ const person = {
     city: 'Bombay'
 }
 
-// // for in
-// for (const key in person) {
-//     console.log(key,':',person[key]);
+// for in
+for (const key in person) {
+    console.log(key,':',person[key]);
     
+}
+
+// const personKeys = Object.keys(person)
+// const personValues = Object.values(person)
+// const personEntries = Object.entries(person)
+
+// for (const key of personKeys) {
+//     console.log(person[key]);
 // }
 
-const personKeys = Object.keys(person)
-
-for (const key of personKeys) {
-    console.log(person[key]);
-}
+// We use for of for  arrays and for in for objects. 
