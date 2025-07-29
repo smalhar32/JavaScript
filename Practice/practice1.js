@@ -62,3 +62,67 @@
 
 
 // 2️⃣ Variables & Data Types (5 Questions)
+
+// 6. Declare a const object, modify its properties, and log the updated object.
+
+// const obj = {
+//     name: "Shivam",
+//     age: 23,
+//     email: "shivam@example.com"
+// }
+
+// console.log("Original Object:", obj);
+// obj.age = 24; // Modifying a property
+// console.log("Updated Object:", obj);
+
+// 7. Convert "50" (string) into a number using 3 different methods.
+
+// let num = "50";
+// // Method 1: Using Number()
+// console.log(Number(num)); // 50
+
+
+// // Method 2: Using parseInt()
+// console.log(parseInt(num)); // 50
+
+// // Method 3: Using unary plus operator
+// console.log(+num); // 50
+
+// 8. Check if "JavaScript" contains "Script" without using .includes().
+
+
+let str = "JavaScript";
+
+//using include()
+
+// console.log(str.includes("Script")); // true
+
+// without using .includes()
+
+// //using indexOf()
+// console.log(str.indexOf("Script") !== -1); // true;
+
+// //using search()
+// console.log(str.search("Script") !== -1); // true
+
+// // using regex
+// console.log(/Script/.test(str)); // true
+
+// 9. Create an array of 5 numbers and log the sum using .reduce().
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+// console.log("Sum of the array:", sum); // 15
+
+// 10. Explain the difference between undefined, null, and NaN with examples.
+
+// let a; // Undefined
+// console.log(a); // undefined
+
+// let b = null; // Explicitly assigned null
+// console.log(b); // null
+
+// let c = "hello" / 2; // Invalid math operation
+// console.log(c); // NaN
+// console.log(typeof NaN); // "number" (weird JS quirk)
